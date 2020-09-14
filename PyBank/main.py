@@ -2,7 +2,7 @@ import os
 import csv
 
 budget_data_csv = os.path.join("./", "Resources", "budget_data.csv")
-budget_data_csv_output = os.path.join("./", "Resources", "budget_data.txt")
+budget_data_csv_output = os.path.join("./", "analysis", "budget_data.txt")
 
 print(f'budget_data_csv {budget_data_csv}')
 print(f'budget_data_csv_output {budget_data_csv_output}')

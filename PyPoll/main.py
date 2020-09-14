@@ -2,7 +2,7 @@ import os
 import csv
 
 election_data_csv = os.path.join("./", "Resources", "election_data.csv")
-election_data_csv_output = os.path.join("./", "Resources", "election_data.txt")
+election_data_csv_output = os.path.join("./", "analysis", "election_data.txt")
 candidates = {}
 
 with open(election_data_csv) as csvelectiondata:
